@@ -1,0 +1,44 @@
+function dataTypeString(){
+    if(true){
+    let bike="KTM Duke";
+    console.log("Bike Name : "+bike);
+    }
+}
+function dataTypeNumber(){
+    if(true){
+    let bikeNumber=2345;
+    console.log("Bike Number : "+bikeNumber);
+    }
+}
+function dataTypeBoolean(){
+    if(true){
+   let isBikeNumber2345=true;
+        console.log("Bike Number is 2345 : "+isBikeNumber2345);
+    }
+}
+function dataTypeNull(){
+    if(true){
+    let bikeFuelLevel=null;
+        console.log("Is there Any fuel in the bike : "+bikeFuelLevel);
+        console.log(bikeFuelLevel??"Fuel Tank is empty");
+    }
+}
+function dataTypeObject(){
+    if(true){
+    let bike ={
+        name: 'Duke',
+        brand: 'Ktm',
+        prize: 'two lakh fifty'
+    };
+        console.log(bike);
+    }
+}
+function dataTypeArray(){
+    if(true){
+        let bikeColors=['black-white','orange','orange-blue'];
+        let prize=[245000,250000,240000];
+        console.log("Bike Colors : "+bikeColors+
+                    " and Prize : "+prize);
+    }
+   
+}
